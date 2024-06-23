@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+    /* Correct URL for the font file */
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+}
+
+.card {
+    width: 320px;
+    height: 497px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.qr {
+    width: 288px;
+    height: 288px;
+    border-radius: 20px;
+    margin: 5%;
+}
+
+.heading {
+    color: #1F314F;
+    margin-top: 0 !important;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 5%;
+}
+
+.sub-heading {
+    color: #7D889E;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 5%;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
