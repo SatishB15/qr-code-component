@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Outfit';
     src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-    /* Correct URL for the font file */
 }
 
 body {
@@ -12,6 +11,7 @@ body {
     height: 100vh;
     align-items: center;
     margin: 0;
+    font-size: 16px;
 }
 
 .card {
@@ -42,8 +42,8 @@ body {
 .sub-heading {
     color: #7D889E;
     font-weight: 400;
-    font-size: 15px;
-    margin: 5%;
+    font-size: 16px;
+    margin: 6%;
 }
 
 .attribution {
